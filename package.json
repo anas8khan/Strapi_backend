@@ -7,7 +7,7 @@
     "build": "strapi build",
     "deploy": "strapi deploy",
     "develop": "strapi develop",
-    "start": "strapi start",
+    "start": "mkdir -p .tmp && npm run develop",
     "strapi": "strapi"
   },
   "dependencies": {
